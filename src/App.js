@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 const App = () => {
@@ -6,6 +6,7 @@ const App = () => {
       <div>
           <Header />
           <Technologies />
+          <Footer />
       </div>
   );
 }
@@ -29,6 +30,16 @@ const Header = () => {
             <li>Home</li>
             <li>News</li>
             <li>Messages</li>
+        </div>
+    )
+}
+
+const Footer = () => {
+    return (
+        <div>
+            <li>Email</li>
+            <li>Contacts</li>
+            <li>Header</li>
         </div>
     )
 }
