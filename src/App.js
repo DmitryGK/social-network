@@ -1,5 +1,8 @@
-
+import React from 'react'
 import './App.css';
+import Header from "./Header";
+import Technologies from "./Technologies";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -9,39 +12,6 @@ const App = () => {
           <Footer />
       </div>
   );
-}
-
-const Technologies = () => {
-    return (
-    <div >
-        <ul>
-            <li>html</li>
-            <li>css</li>
-            <li>js</li>
-            <li>react</li>
-        </ul>
-    </div>
-    )
-}
-
-const Header = () => {
-    return (
-        <div>
-            <li>Home</li>
-            <li>News</li>
-            <li>Messages</li>
-        </div>
-    )
-}
-
-const Footer = () => {
-    return (
-        <div>
-            <li>Email</li>
-            <li>Contacts</li>
-            <li>Header</li>
-        </div>
-    )
 }
 
 export default App;
