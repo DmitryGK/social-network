@@ -1,4 +1,4 @@
-import React from 'react'
+
 import p from './Post.module.css'
 import ava1 from './../../../../Pictures/ava1.jpg'
 
